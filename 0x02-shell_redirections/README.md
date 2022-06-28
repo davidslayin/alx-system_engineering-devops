@@ -3,4 +3,5 @@ this my first readme
 1 Confused smiley
 2 display the content of /etc/passwd
 3.  display the content of the two files?
-4. Last lines of a file 
+4. Last lines of a file
+5. I'd prefer the first ones actually 
