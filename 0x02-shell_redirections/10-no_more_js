@@ -1,0 +1,2 @@
+#!/bin/bash
+file -name "`:wq*.js" -type f .delete
