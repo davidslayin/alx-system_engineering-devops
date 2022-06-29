@@ -1,2 +1,3 @@
-#!/bin/bash
-$((BREATH**LOVE))
+[master e1af99f]  display breath the power of love
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+ create mode 100644 0x03-shell_variables_expansions/10-love_exponent_breath
