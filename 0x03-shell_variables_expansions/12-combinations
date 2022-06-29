@@ -1,3 +1,2 @@
-[master d575b82] writing a script that prints all possible combination of two letters expecpt 00
- 2 files changed, 5 insertions(+), 2 deletions(-)
- create mode 100755 0x03-shell_variables_expansions/12-combinations
+#!/bin/bash
+echo {a..z}{a..z}|tr " " "\n"|grep -v "00"
