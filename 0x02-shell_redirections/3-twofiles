@@ -1,2 +1,2 @@
-#!/bin/bash
-cat /etc/passwd /etc/hosts
+[master 5a4b98b] show the contents of the two files
+ 2 files changed, 3 insertions(+), 4 deletions(-)

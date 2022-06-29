@@ -2,3 +2,4 @@
 1 display confused smiley face
 2 display the contents of the file /etc/passwd
 3 display the contents of two files /etc/passwd and /etc/hosts
+4 last line of a file
