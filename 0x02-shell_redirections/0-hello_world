@@ -1,2 +1,2 @@
-[master a831a1c] hello world task
- 2 files changed, 4 insertions(+), 3 deletions(-)
+#!/bin/bash
+echo "Hello, world"

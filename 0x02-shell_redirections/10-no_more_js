@@ -1,2 +1,3 @@
-#!/bin/bash
-file -name "`:wq*.js" -type f .delete
+[master 0488b1f] a script that deletes all .js files
+ 3 files changed, 7 insertions(+), 3 deletions(-)
+ create mode 100755 0x02-shell_redirections/10-no_more_js
