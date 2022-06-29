@@ -1,2 +1,2 @@
-#!/bin/bash
-find > -type d ! -path . -print | wc -l
+[master 65e4101] the number of directories
+ 1 file changed, 1 insertion(+), 1 deletion(-)
