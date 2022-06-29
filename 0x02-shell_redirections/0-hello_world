@@ -1,13 +1,2 @@
-[master e5ef36e] displaying hello world
- 12 files changed, 3 insertions(+), 43 deletions(-)
- mode change 100755 => 100644 0x02-shell_redirections/0-hello_world
- delete mode 100755 0x02-shell_redirections/1-confused_smiley
- delete mode 100755 0x02-shell_redirections/10-no_more_js
- delete mode 100755 0x02-shell_redirections/2-hellofile
- delete mode 100755 0x02-shell_redirections/3-twofiles
- delete mode 100755 0x02-shell_redirections/4-lastlines
- delete mode 100755 0x02-shell_redirections/5-firstlines
- delete mode 100755 0x02-shell_redirections/6-third_line
- delete mode 100755 0x02-shell_redirections/7-file
- delete mode 100755 0x02-shell_redirections/8-cwd_state
- delete mode 100755 0x02-shell_redirections/9-duplicate_last_line
+#!/bin/bash
+echo 'Hello, world'
