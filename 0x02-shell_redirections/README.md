@@ -4,3 +4,4 @@
 3 display the contents of two files /etc/passwd and /etc/hosts
 4 last line of a file
 5 first line of a file
+6 view the third line
