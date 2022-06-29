@@ -1,3 +1,2 @@
-[master dd6680d]  displaying the contents of multiple files
- 3 files changed, 6 insertions(+), 2 deletions(-)
- create mode 100644 0x02-shell_redirections/3-twofiles
+#!/bin/bash
+cat /etc/passwd /etc/hosts
