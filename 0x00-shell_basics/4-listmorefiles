@@ -1,2 +1,2 @@
-#!/bin/bash
-ls -la
+[master 852b860]  display current directory including the hidden files
+ 1 file changed, 2 insertions(+), 2 deletions(-)
