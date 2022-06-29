@@ -5,3 +5,4 @@
 4 last line of a file
 5 first line of a file
 6 view the third line
+7 write a script the writes a text in to a file
