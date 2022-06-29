@@ -1,2 +1,4 @@
-#!/bin/bash
-BEST="School"
+[master 7f99314] creating a script that creates a script that creates a new local variable.
+ 2 files changed, 4 insertions(+), 6 deletions(-)
+ mode change 100755 => 100644 0x03-shell_variables_expansions/5-local_variables
+ create mode 100755 0x03-shell_variables_expansions/6-create_local_variable
