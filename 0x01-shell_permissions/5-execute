@@ -1,11 +1,2 @@
-[master d56abee] Write a script that adds execute permission to the owner of the file hello.
- 9 files changed, 18 insertions(+)
- create mode 100644 0x01-shell_permissions/10-mirror_permissions
- create mode 100644 0x01-shell_permissions/11-directories_permissions
- create mode 100644 0x01-shell_permissions/12-directory_permissions
- create mode 100644 0x01-shell_permissions/13-change_group
- create mode 100755 0x01-shell_permissions/5-execute
- create mode 100755 0x01-shell_permissions/6-multiple_permissions
- create mode 100644 0x01-shell_permissions/7-everybody
- create mode 100644 0x01-shell_permissions/8-James_Bond
- create mode 100644 0x01-shell_permissions/9-John_Doe
+#!/bin/bash
+chmod u+x hello
