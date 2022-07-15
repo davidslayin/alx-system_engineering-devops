@@ -1,3 +1,2 @@
-[master e5e2a8c] 10 newest files
- 2 files changed, 4 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/12-newest_files
+#!/bin/bash
+ls -t | head
