@@ -1,15 +1,2 @@
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   ../0x00-shell_basics/4-listmorefiles
-	modified:   ../0x02-shell_redirections/10-no_more_js
-	modified:   7-create_global_variable
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	8-true_knowledge
-
-no changes added to commit (use "git add" and/or "git commit -a")
+#!/bin/bash
+echo $((128+$TRUEKNOWLEDGE))
