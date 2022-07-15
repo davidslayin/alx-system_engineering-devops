@@ -1,3 +1,2 @@
-[master 6921687] displ the count of directories
- 1 file changed, 2 insertions(+)
- create mode 100755 0x03-shell_variables_expansions/3-paths
+#!/bin/bash
+echo $PATH | tr ":" "\n" | wc -l	
