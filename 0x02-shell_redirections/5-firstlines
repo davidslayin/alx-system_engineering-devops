@@ -1,2 +1,2 @@
-[master 89780ca] whats the first line
- 1 file changed, 1 insertion(+), 1 deletion(-)
+#!/bin/bash
+head /etc/passwd
