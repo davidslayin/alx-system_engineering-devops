@@ -1,2 +1,2 @@
-[master 1cf8c23]  display root and the next 3 line next to it
- 1 file changed, 1 insertion(+), 1 deletion(-)
+#!/bin/bash
+grep -A 3 root /etc/passwd
