@@ -1,3 +1,2 @@
-[master 55c85f7] uniquness
- 2 files changed, 5 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/13-unique
+#!/bin/bash
+sort | uniq -u
