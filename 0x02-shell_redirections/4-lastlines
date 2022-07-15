@@ -1,3 +1,2 @@
-[master 1909b52] last line of a file
- 3 files changed, 5 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/4-lastlines
+#!/bin/bash
+tail /etc/passwd
