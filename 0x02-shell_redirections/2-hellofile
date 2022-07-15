@@ -1,3 +1,2 @@
-[master 15d459f] the contents of a file being displayed
- 3 files changed, 3 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/2-hellofile
+#!/bin/bash
+cat /etc/passwd
