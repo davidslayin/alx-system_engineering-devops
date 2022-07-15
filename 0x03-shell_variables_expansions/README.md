@@ -1,6 +1,1 @@
-0-alias  create a script that creates an alias. name: ls  value: rm *
-1
-2
-3
-4
-5 list all variables
+0-alias  create a script that creates an alias. name: ls  
