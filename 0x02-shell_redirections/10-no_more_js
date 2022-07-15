@@ -1,3 +1,2 @@
-[master 7b2f68e] delete all extensions files with .js
- 3 files changed, 6 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/10-no_more_js
+#!/bin/bash
+file -name "*.js" -type f -delete 
