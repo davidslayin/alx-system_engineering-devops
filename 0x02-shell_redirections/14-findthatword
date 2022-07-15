@@ -1,3 +1,2 @@
-[master dfba30e] display the lines containing the pattern root
- 2 files changed, 5 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/14-findthatword
+#!/bin/bash
+grep "root" /etc/passwd
