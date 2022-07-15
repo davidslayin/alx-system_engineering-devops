@@ -1,3 +1,2 @@
-[master c175186] hide the ones with bin
- 2 files changed, 4 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/17-hidethisword
+#!/bin/bash
+grep -v bin /etc/passwd
