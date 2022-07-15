@@ -1,3 +1,2 @@
-[master e9ee213] display all the lines starting with the letter
- 2 files changed, 5 insertions(+), 2 deletions(-)
- create mode 100755 0x02-shell_redirections/18-letteronly
+#!/bin/bash
+grep -i *^[a-z]* /etc/ssh/sshd_config
