@@ -1,2 +1,2 @@
-[master c9fc91e] write the combinations
- 2 files changed, 6 insertions(+), 5 deletions(-)
+#!/bin/bash
+echo {a..z} {a..z}
