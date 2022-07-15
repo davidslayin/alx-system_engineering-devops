@@ -1,4 +1,2 @@
-[master a779f54] write a script that prints two decimal places
- 3 files changed, 7 insertions(+), 2 deletions(-)
- create mode 100755 0x03-shell_variables_expansions/13-print_float
- create mode 100755 0x03-shell_variables_expansions/3-print_float
+#!/bin/bash
+printf '%.2f\n'
