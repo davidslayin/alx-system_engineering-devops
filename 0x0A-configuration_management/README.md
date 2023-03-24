@@ -1,1 +1,0 @@
-congiguration management tasks readme
