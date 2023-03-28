@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# creating a rsa key with name of the file school
+# with number of bits of 4096 with passpharase betty
+
+ssh-keygen -f school -b 4096 -N betty 
