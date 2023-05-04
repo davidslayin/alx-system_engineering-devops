@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# a script that automates configuration of my server
+# Nginix installed where which will be listening 
+# on port 80. with the /redirect_me is redirecting
+# to another page
+# serves 404 not found page
+
+sudo apt-get update -y
+sudo apt-get install nginx -y
+# making sure nginx to listen on port 80
+
+sudo ufw allow 'Nginx HTTP'
+
+# give the user permissionsa and ownership to edit the websites
+
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 744 /var/www
+echo "Hello World!" > /var/www/html
+
+# let's back up the original default page
+cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bakup
+
+sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+
+# setting up a 404 page
+echo "Ceci n'est pas une page" >> /var/www/html/error_404.html
+sudo sed -i '25i\	error_page 404 /error_404.html;' /etc/nginx/sites-available/default
+
+# restarting nginx
+
+sudo service nginx restart
