@@ -11,13 +11,10 @@ sudo ufw allow 'Nginx HTTP'
 # give the user permissionsa and ownership to edit the websites
 sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod -R 744 /var/www
-echo "Hello World!" > /var/www/html/index.html
-# setting up the /redirect_me to a youtube video using sed command with a return of 301
-
-New_config = "\\\n\tlocation = /redirect_me {\n\t\t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
+echo "Hello World!" > /var/www/html
 
 # let's back up the original default page
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bakup
+cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bakup
 
-sudo sed -i "53i $New_config" /etc/nginx/sites-available/default
+sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
 sudo service nginx restart
