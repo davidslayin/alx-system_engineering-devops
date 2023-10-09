@@ -1,4 +1,6 @@
- requests failure report
+
+![postmortem](https://github.com/davidslayin/alx-system_engineering-devops/assets/106974819/341660f1-48df-486b-8b76-c22f48ad0fb2)
+ report
 Last week, it was reported that the BooktifuL platform was returning 500 Error on all requests made on the platform routes, all the services were down. 90% of the users were affected. The root cause was the failure of our master server web-01.
 
 Timeline
